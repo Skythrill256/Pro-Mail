@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "TempMail",
+  "version": "1.0",
+  "description": "Generate and manage temporary email addresses",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
+

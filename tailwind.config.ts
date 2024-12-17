@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -9,10 +10,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'neo-bg': '#f0f0f0',
+        'neo-primary': '#ff6b6b',
+        'neo-secondary': '#4ecdc4',
+        'neo-accent': '#feca57',
+        'neo-text': '#2d3436',
+      },
+      fontFamily: {
+        'sans': ['Arial', 'sans-serif'],
       },
     },
   },
   plugins: [],
 } satisfies Config;
+
